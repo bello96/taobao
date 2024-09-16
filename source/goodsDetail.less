@@ -1,0 +1,408 @@
+// 顶部
+.site-nav {
+  background-color: #21252b !important;
+  border-bottom: none !important;
+
+  .site-nav-bd {
+    background-color: #21252b !important;
+
+    .site-nav-bd-l {
+      float: right;
+      display: none;
+
+      .site-nav-menu {
+        display: none;
+      }
+
+      .site-nav-menu:nth-child(2) {
+        display: block;
+
+        .site-nav-menu-hd {
+          background-color: #21252b;
+        }
+
+        .site-nav-menu-hd a {
+          color: #c9c9c9;
+        }
+      }
+
+      .site-nav-menu-hover .site-nav-menu-hd {
+        background-color: #3c3c3c !important;
+        border: none;
+      }
+
+      .site-nav-menu-bd-panel {
+        background-color: #3c3c3c;
+        border-color: #21252b;
+
+        a {
+          color: #c9c9c9;
+
+          &:hover {
+            color: #ff4400;
+          }
+        }
+
+        p {
+          color: #c9c9c9;
+        }
+
+        .site-nav-user-privilege {
+          display: none;
+        }
+
+        .site-nav-menu-hd a {
+          color: #c9c9c9;
+        }
+      }
+    }
+
+    .site-nav-bd-r {
+      float: right;
+
+      .site-nav-menu {
+        display: none;
+      }
+
+      .site-nav-menu-hover {
+        .site-nav-menu-hd {
+          background-color: #3c3c3c;
+          border-color: transparent;
+          border-width: 0;
+        }
+      }
+
+      .site-nav-menu:nth-child(2) {
+        display: block;
+
+        .site-nav-menu-list {
+          // display: block;
+          .site-nav-menu-bd-panel {
+            background-color: #3c3c3c;
+            border-color: #21252b;
+
+            a {
+              color: #c9c9c9;
+
+              &:hover {
+                background-color: transparent;
+                color: #ff4400;
+              }
+            }
+          }
+        }
+      }
+
+      .site-nav-menu:nth-child(3) {
+        display: block;
+      }
+
+      .site-nav-pipe {
+        display: none;
+      }
+
+      .site-nav-menu-hd {
+        span {
+          color: #c9c9c9;
+        }
+
+        &:hover span {
+          color: #ff4400;
+        }
+      }
+    }
+  }
+}
+
+#ice-container {
+  [class*="searchHeader--"] {
+    background-color: #21252b;
+    [class*="searchSuggest--"] {
+      background-color: #3c3c3c;
+      border-color: #ff5000 !important;
+      border-width: 2px;
+      .search-suggest-combobox > input,
+      [data-sg-type="combobox"] > input {
+        background-color: #3c3c3c;
+        border-color: #ff5000 !important;
+        color: #c9c9c9;
+      }
+      .search-suggest-popup {
+        border-color: #ff5000 !important;
+        .search-suggest-menu {
+          background-color: #3c3c3c;
+          border-color: #ff5000 !important;
+          .search-suggest-menu-item {
+            .item-text {
+              color: #ff5000;
+              b {
+                color: #c9c9c9;
+              }
+            }
+          }
+          .search-suggest-menu-item:hover {
+            background-color: #5c5c5c;
+          }
+        }
+      }
+    }
+  }
+  [class*="main--"] {
+    background-color: #21252b;
+    [class*="shopHeader--"] {
+      background-color: #3c3c3c;
+      [class*="shopName--"] {
+        color: #c9c9c9;
+      }
+      [class*="starsWrap--"] {
+        display: none;
+      }
+      [class*="evaluateItem--"] {
+        background-color: #282828;
+        [class*="evaluateText--"] {
+          color: #b1b1b1;
+        }
+      }
+      [class*="divider--"] {
+        background-color: #21252b;
+      }
+      [class*="evaluateItemTitle--"] {
+        color: #c9c9c9;
+      }
+
+      [class*="evaluateItemCore--"] {
+        color: #c1c1c1;
+      }
+      [class*="button--"] {
+        border-color: #ff5000 !important;
+        img {
+          display: none;
+        }
+        [class*="buttonText--"] {
+          color: #ff5000;
+        }
+      }
+    }
+    [class*="content--"] {
+      [class*="BasicContent--"] {
+        .f-els-1 {
+            color: #c9c9c9;
+        }
+        background-color: #3c3c3c;
+        [class*="miniPanel--"] {
+          border-color: #21252b;
+        }
+        [class*="Price--"] {
+          display: none;
+        }
+        [class*="summaryInfoWrap--"] {
+          [class*="picGallery--"] {
+            padding: 10px;
+            padding-left: 15px;
+            padding-top: 20px;
+            background-color: #282828;
+            border-radius: 10px;
+          }
+          [class*="purchasePanel--"] {
+            background-color: #282828;
+            padding: 15px;
+            padding-left: 20px;
+            border-radius: 10px;
+            color: #686868;
+            [class*="mainTitle--"] {
+              color: #c9c9c9;
+            }
+            [class*="deliveryFromAddr--"] {
+              color: #c1c1c1;
+            }
+            [class*="guaranteeListWrap--"] {
+              color: #c1c1c1;
+            }
+            [class*="valueItem--"] {
+              background-color: #3c3c3c;
+              border-color: #3c3c3c;
+              [class*="valueItemText--"] {
+                color: #c9c9c9;
+              }
+            }
+            [class*="isSelected"] {
+              border-color: #ff5000;
+              color: #ff5000;
+              [class*="valueItemText--"] {
+                color: #ff5000;
+              }
+            }
+            [class*="countWrapper--"] {
+              background-color: #3c3c3c;
+              color: red;
+
+              [class*="quantityBtn--"] {
+                border-color: #ff5000;
+              }
+              [class*="countValueWrapper--"] {
+                border-color: #ff5000;
+              }
+              [class*="btnText--"] {
+                color: #c9c9c9;
+              }
+              [class*="countValue--"] {
+                color: #c9c9c9;
+              }
+            }
+            [class*="summaryInfo--"] {
+              color: #c9c9c9 !important;
+            }
+            [class*="serviceHeader--"] {
+              color: #b1b1b1;
+            }
+            [class*="NormalFixedInfo--"] {
+                display: none !important;
+            }
+            [class*="uniqueServiceItem--"] {
+              background-color: #3c3c3c;
+              border-color: transparent;
+              color: #c9c9c9;
+              &:hover {
+                border-color: #ff5000;
+                color: #fafafa;
+              }
+            }
+
+            [class*="footWrap--"] {
+              background-color: #3c3c3c;
+              margin-left: 0;
+              border-radius: 8px;
+              border: none;
+              [class*="RightButton--"] {
+                background-color: #21252b;
+                border: none;
+                color: #c9c9c9 !important;
+                &:hover {
+                  color: #ff5000 !important;
+                }
+              }
+
+              [class*="mini--"] {
+                [class*="btn--"] {
+                  width: 130px !important;
+                }
+              }
+            }
+          }
+        }
+        [class*="detailInfoWrap--"] {
+          [class*="tabTitleWrap--"] {
+            background-color: #282828;
+            border-bottom: none;
+            padding-left: 12px;
+            border-radius: 10px;
+          }
+          [class*="tabDetailItemTitle--"] {
+            color: #c9c9c9;
+          }
+          //   [class*="tagItem--"] {
+
+          //   }
+          [class*="sortBy--"] {
+            display: none;
+          }
+          [class*="like--"] {
+            display: none;
+          }
+          [class*="footer--"] {
+            display: none;
+          }
+          [class*="isSelected--"] {
+            color: #ff5000;
+          }
+          [class*="userName--"] {
+            color: #c9c9c9;
+          }
+          [class*="content--"] {
+            color: #c1c1c1;
+          }
+          [class*="splitLine--"] {
+            background-color: #40464f;
+          }
+          [class*="tableWrapper--"] {
+            border-color: transparent;
+            border-radius: 10px;
+          }
+          [class*="infoItem--"] {
+            background-color: #282828;
+            border: none;
+            [class*="infoItemTitle--"] {
+              background-color: #2b2b2b;
+              color: #c9c9c9;
+            }
+            [class*="infoItemContent--"] {
+              color: #c1c1c1;
+            }
+          }
+          .descV8-container {
+            background-color: transparent;
+          }
+          [class*="cardTitle--"] {
+            color: #c9c9c9;
+            &:hover {
+              color: #ff5000;
+            }
+          }
+        }
+        [class*="pick-header-tab--"] {
+          color: #c9c9c9;
+        }
+        [class*="pick-content-item--"] {
+          background-color: #282828;
+          .img-wrapper {
+            background-color: #282828;
+          }
+
+          border-radius: 12px;
+
+          [class*="info-wrapper-title--"] {
+            color: #c7c7c7;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 右侧
+.tb-toolkit {
+  display: none;
+}
+
+// 底部
+#J_SiteFooter {
+  background-color: #21252b;
+  .tb-footer {
+    background-color: #3c3c3c;
+    margin-top: 0 !important;
+    border: none;
+
+    strong {
+      color: #b1b1b1;
+    }
+
+    .tb-footer-bd {
+      border: none;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* 滚动条滑块样式 */
+::-webkit-scrollbar-thumb {
+  background: #686868 !important;
+}
+
+/* 滚动条轨道样式 */
+::-webkit-scrollbar-track {
+  background: #424242;
+}

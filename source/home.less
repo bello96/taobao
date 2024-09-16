@@ -1,0 +1,616 @@
+// 顶部
+.site-nav {
+  background-color: #21252b;
+  border-bottom: none;
+
+  .site-nav-bd {
+    background-color: #21252b;
+
+    .site-nav-bd-l {
+      float: right;
+
+      .site-nav-menu {
+        display: none;
+      }
+
+      .site-nav-menu:nth-child(2) {
+        display: block;
+
+        .site-nav-menu-hd {
+          background-color: #21252b;
+        }
+
+        .site-nav-menu-hd a {
+          color: #c9c9c9;
+        }
+      }
+
+      .site-nav-menu-hover .site-nav-menu-hd {
+        background-color: #3c3c3c !important;
+        border: none;
+      }
+
+      .site-nav-menu-bd-panel {
+        background-color: #3c3c3c;
+        border-color: #21252b;
+
+        a {
+          color: #c9c9c9;
+
+          &:hover {
+            color: #ff4400;
+          }
+        }
+
+        p {
+          color: #c9c9c9;
+        }
+
+        .site-nav-user-privilege {
+          display: none;
+        }
+
+        .site-nav-menu-hd a {
+          color: #c9c9c9;
+        }
+      }
+    }
+
+    .site-nav-bd-r {
+      float: right;
+
+      .site-nav-menu {
+        display: none;
+      }
+
+      .site-nav-menu-hover {
+        .site-nav-menu-hd {
+          background-color: #3c3c3c;
+          border-color: transparent;
+          border-width: 0;
+        }
+      }
+
+      .site-nav-menu:nth-child(2) {
+        display: block;
+
+        .site-nav-menu-list {
+
+          // display: block;
+          .site-nav-menu-bd-panel {
+            background-color: #3c3c3c;
+            border-color: #21252b;
+
+            a {
+              color: #c9c9c9;
+
+              &:hover {
+                background-color: transparent;
+                color: #ff4400;
+              }
+            }
+          }
+        }
+      }
+
+      .site-nav-menu:nth-child(3) {
+        display: block;
+      }
+
+      .site-nav-pipe {
+        display: none;
+      }
+
+      .site-nav-menu-hd {
+        span {
+          color: #c9c9c9;
+        }
+
+        &:hover span {
+          color: #ff4400;
+        }
+      }
+    }
+  }
+}
+
+// 主体
+#ice-container {
+  background-color: #21252b;
+  padding-bottom: 40px;
+
+  [class*="with-is-promo--"] {
+    display: none;
+  }
+
+  [class*="search-decorations--"] {
+    background-color: transparent;
+  }
+
+  .layer {
+    background-color: #21252b;
+
+    .tips-content {
+      background-color: #3c3c3c;
+
+      .tip-text {
+        color: #c9c9c9;
+      }
+    }
+  }
+
+  .search-fixed {
+
+    // 隐藏淘江湖
+    .tbh-logo-right {
+      display: none;
+    }
+  }
+
+  .tbh-logo {
+    a {
+      background-image: url(https://gw.alicdn.com/imgextra/i4/O1CN01H11jUw1gVppn3YjsM_!!6000000004148-2-tps-480-144.png) !important;
+    }
+  }
+
+  .search-wrap {
+    .search-suggest {
+      background-color: #282828;
+
+      .search-suggest-menu {
+        background-color: #282828;
+
+        .search-suggest-menu-history-list-wrapper {
+          .search-suggest-menu-history-item {
+            background-color: #3c3c3c;
+            border-color: #282828;
+          }
+        }
+
+        .search-suggest-menu-item:hover {
+          background-color: #3c3c3c;
+
+          .text-commen {
+            color: #c9c9c9;
+          }
+        }
+
+        .item-text {
+          color: #ff4f01;
+
+          b {
+            color: #c6c6c6;
+          }
+        }
+
+        .text-commen {
+          color: #9b9b9b;
+        }
+      }
+
+      .image-search-wrapper {
+        display: none;
+      }
+
+      .search-suggest-combobox {
+        input {
+          background-color: #282828;
+          color: #c9c9c9;
+        }
+      }
+
+      [data-sg-type="tab"] {
+        .search-tab-icon {
+          display: none;
+        }
+
+        background-color: #3c3c3c;
+
+        .search-suggest-tabs-tab {
+          color: #c9c9c9;
+        }
+
+        .search-suggest-tabs {
+          background-color: #3c3c3c;
+        }
+      }
+    }
+  }
+
+  .screen-outer {
+    background-color: #3c3c3c;
+    margin-bottom: 15px;
+    padding-bottom: 16px;
+    border-radius: 18px;
+
+    [class*="service2024--"] {
+      background-color: #282828;
+      margin-right: 10px;
+
+      [class*="cate--"] {
+        &:hover {
+          background-color: #3c3c3c;
+        }
+      }
+
+      [class*="sec-cate-container-scroll--"] {
+        overflow: hidden;
+      }
+
+      [class*="venues-brands-container--"] {
+        display: none;
+      }
+
+      [class*="sec-cate-container--"] {
+        background-color: #282828;
+
+        [class*="sec-cate-item--"] {
+          [class*="sec-cate-title-container-a--"] {
+            color: #fe8720;
+          }
+        }
+
+        [class*="sec-cate-content--"] {
+          [class*="sec-cate-content-href--"] {
+            color: #b1b1b1;
+
+            &:hover {
+              color: #fe8720;
+            }
+          }
+        }
+      }
+
+      [class*="cate-title-txt--"] {
+        color: #c7c7c7;
+      }
+
+      [class*="cate-title-icon--"] {
+        display: none;
+      }
+
+      [class*="service-bd--"] {
+        background-color: #282828;
+        border-radius: 10px;
+
+        [class*="first-cate-container--"] {
+          [class*="icon-cate--"] {
+            color: #c7c7c7;
+          }
+
+          [class*="cate-content-href--"] {
+            color: #c7c7c7;
+          }
+
+          [class*="service-slash--"] {
+            color: #c7c7c7;
+          }
+        }
+      }
+    }
+
+    .main {
+      background-color: transparent;
+
+      .main-inner {
+        background-color: #3c3c3c;
+      }
+    }
+  }
+
+  .wrap-fixed .top {
+    background-color: #21252b;
+  }
+
+  .smallTabListWrapper {
+    background-color: #3c3c3c;
+
+    .smallTabTitle {
+      color: #c7c7c7;
+    }
+  }
+
+  .newnav {
+    background-color: #282828;
+
+    .nav-bd {
+      color: #f76222;
+
+      .txt-nav {
+        color: #f76222 !important;
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .business-entry-container {
+    .business-entry-large-item-card {
+      background-color: #282828 !important;
+
+      .business-entry-large-item-card-top-title {
+        color: #c7c7c7;
+      }
+
+      .business-entry-large-item-card-top-image {
+        .mytao-icon {
+          font-size: 12px;
+          color: #ff5000;
+        }
+      }
+
+      .business-entry-large-item-card-content {
+        .business-entry-large-item-card-content-title {
+          color: #c9c9c9;
+        }
+      }
+    }
+
+    .business-entry-bbs-card {
+      background-color: #282828 !important;
+
+      .business-entry-bbs-card-top-title {
+        color: #c9c9c9;
+      }
+
+      .business-entry-bbs-card-top-image {
+        .mytao-icon {
+          font-size: 12px;
+          color: #ff5000;
+        }
+      }
+
+      .business-entry-bbs-card-content {
+        .business-entry-bbs-card-content-desc {
+          color: #c1c1c1;
+        }
+      }
+    }
+
+    .business-entry-small-item-card {
+      background-color: #282828 !important;
+
+      .business-entry-small-item-card-top-title {
+        color: #c1c1c1;
+      }
+
+      .mytao-icon {
+        font-size: 12px;
+        color: #ff5000;
+      }
+    }
+
+    .business-entry-live-card {
+      background-color: #282828 !important;
+
+      .business-entry-live-card-top-title {
+        color: #c1c1c1;
+      }
+
+      .mytao-icon {
+        font-size: 12px;
+        color: #ff5000;
+      }
+    }
+  }
+
+  .col-right {
+    .tbh-user {
+      background-image: linear-gradient(#282828 0%,
+          #282828 50%,
+          #282828 100%) !important;
+
+      .user {
+        .member-nick-info {
+          .member-nick {
+            color: #c2c2c2;
+          }
+        }
+
+        .member-hello {
+          color: #c9c9c9;
+        }
+
+        .member-ft {
+          .member-login {
+            strong {
+              color: #c5c5c5;
+            }
+
+            .member-cart {
+              color: #c3c3c3;
+            }
+
+            .member-delivery {
+              color: #c3c3c3;
+            }
+
+            .member-awaiting {
+              color: #c3c3c3;
+            }
+
+            .member-nonpayment {
+              color: #c3c3c3;
+            }
+
+            .member-comment {
+              color: #c3c3c3;
+            }
+          }
+
+          .member-logout {
+            .login-guide-title {
+              color: #c7c7c7;
+              font-size: 15px;
+            }
+
+            .login-guide-desc {
+              color: #c7c7c7;
+            }
+
+            .btn-login {
+              color: #f1f1f1;
+            }
+          }
+        }
+      }
+
+      .user-mytao {
+        .mytao-collectitem {
+          color: #c0c0c0;
+        }
+
+        p {
+          color: #c0c0c0;
+        }
+      }
+
+      .user-externalLink {
+        .user-externalLink-item-text {
+          color: #c0c0c0;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  .layer-inner {
+    background-color: #3c3c3c !important;
+    border-radius: 18px;
+
+    .tb-pick-content-item {
+      background-color: #282828;
+
+      .img-wrapper {
+        background-color: #282828;
+      }
+
+      border-radius: 12px;
+
+      .info-wrapper-title {
+        color: #c7c7c7;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// 右侧
+.tb-toolkit {
+  // display: none;
+  background-color: #3c3c3c;
+
+  & .toolkit-item-back {
+    bottom: -60px !important;
+
+    .back-btn {
+      i {
+        background-image: url(https://img.alicdn.com/imgextra/i3/4240902548/O1CN01xj2YYh1Uh2AJ27arD_!!4240902548-2-tblife2_ugc.png) !important;
+        background-size: 22px;
+      }
+    }
+  }
+
+  & .toolkit-item-back:before {
+    background-color: #3c3c3c;
+
+  }
+
+  [data-name="cart2"] {
+    a .toolkit-icon {
+      background-image: url(https://img.alicdn.com/imgextra/i1/4240902548/O1CN01gfEsO61Uh2AHBsYyQ_!!4240902548-2-tblife2_ugc.png) !important;
+      background-size: 22px;
+    }
+  }
+
+  [data-name="consumerservice"] {
+    a .toolkit-icon {
+      background-image: url(https://img.alicdn.com/imgextra/i4/4240902548/O1CN016g7ezx1Uh2AJDEOgA_!!4240902548-2-tblife2_ugc.png) !important;
+      background-size: 22px;
+    }
+  }
+
+  [data-name="feedback"] {
+    a .toolkit-icon {
+      background-image: url(https://img.alicdn.com/imgextra/i4/4240902548/O1CN013sI2t31Uh2AJDRDsu_!!4240902548-2-tblife2_ugc.png) !important;
+      background-size: 22px;
+    }
+  }
+
+  .tb-toolkit-list .toolkit-item {
+    background-color: #3c3c3c;
+
+    &:first-child {
+      display: none;
+    }
+
+    a {
+      color: #c9c9c9;
+    }
+  }
+
+  .im-entry {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .im-top {
+      width: 26px;
+      height: 26px;
+      background-image: url(https://img.alicdn.com/imgextra/i4/4240902548/O1CN01hzBqgj1Uh2A9fy5lg_!!4240902548-2-tblife2_ugc.png);
+      background-size: cover;
+      margin-bottom: 2px;
+
+      .im-icon {
+        display: none;
+      }
+
+      .im-num {
+        left: 12px;
+      }
+    }
+
+    .im-bottom {
+      color: #c9c9c9;
+    }
+  }
+}
+
+// 底部
+#J_SiteFooter {
+  background-color: #21252b;
+  .tb-footer {
+    background-color: #3c3c3c;
+    margin-top: 0 !important;
+    border: none;
+
+    strong {
+      color: #b1b1b1;
+    }
+
+    .tb-footer-bd {
+      border: none;
+    }
+  }
+}
+
+[data-spm="seoinject"] {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* 滚动条滑块样式 */
+::-webkit-scrollbar-thumb {
+  background: #686868;
+}
+
+/* 滚动条轨道样式 */
+::-webkit-scrollbar-track {
+  background: #424242;
+}
