@@ -95,6 +95,10 @@
   border-color: #ff5000 !important;
   color: #c9c9c9;
 }
+#ice-container [class*="searchHeader--"] [class*="searchSuggest--"] [class*="btn-search"]:last-child {
+  background: linear-gradient(90deg, #ffcb00, #ff9402);
+  color: #fafafa;
+}
 #ice-container [class*="searchHeader--"] [class*="searchSuggest--"] .search-suggest-popup {
   border-color: #ff5000 !important;
 }
@@ -146,6 +150,9 @@
 }
 #ice-container [class*="main--"] [class*="shopHeader--"] [class*="button--"] [class*="buttonText--"] {
   color: #ff5000;
+}
+#ice-container [class*="main--"] [class*="content--"] [class*="delivery-content--"] {
+  color: #c9c9c9;
 }
 #ice-container [class*="main--"] [class*="content--"] [class*="BasicContent--"] {
   background-color: #3c3c3c;
@@ -201,10 +208,10 @@
   color: red;
 }
 #ice-container [class*="main--"] [class*="content--"] [class*="BasicContent--"] [class*="summaryInfoWrap--"] [class*="purchasePanel--"] [class*="countWrapper--"] [class*="quantityBtn--"] {
-  border-color: #ff5000;
+  border-color: rgba(255, 80, 0, 0.5);
 }
 #ice-container [class*="main--"] [class*="content--"] [class*="BasicContent--"] [class*="summaryInfoWrap--"] [class*="purchasePanel--"] [class*="countWrapper--"] [class*="countValueWrapper--"] {
-  border-color: #ff5000;
+  border-color: rgba(255, 80, 0, 0.5);
 }
 #ice-container [class*="main--"] [class*="content--"] [class*="BasicContent--"] [class*="summaryInfoWrap--"] [class*="purchasePanel--"] [class*="countWrapper--"] [class*="btnText--"] {
   color: #c9c9c9;

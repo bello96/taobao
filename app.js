@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // home = 首页
 // searchResult = 搜索结果页
 // goodsDetail = 商品详情页
-const activePage = 'searchResult'
+const activePage = 'home'
 
 // 监听 less 文件变化并编译
 const lessFilePath = path.join(__dirname, `source/${activePage}.less`);

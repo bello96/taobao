@@ -103,6 +103,10 @@
 #ice-container [class*="headerWrap--"] .search-suggest .search-suggest-menu .search-suggest-menu-item:hover .text-commen {
   color: #c9c9c9;
 }
+#ice-container [class*="headerWrap--"] .search-suggest .search-suggest-menu .search-suggest-menu-item.active,
+#ice-container [class*="headerWrap--"] .search-suggest .search-suggest-menu .search-suggest .search-suggest-menu-item:hover {
+  background-color: #3c3c3c;
+}
 #ice-container [class*="headerWrap--"] .search-suggest .search-suggest-menu .item-text {
   color: #ff4f01;
 }
@@ -200,8 +204,13 @@
 #ice-container [class*="pageContent--"] #pageContent .search-content-leftWrap [class*="leftContent--"] [class*="sortBarWrap--"] [class*="sortBarWrapTop--"] {
   transform: translateX(0);
 }
+#ice-container [class*="pageContent--"] #pageContent .search-content-leftWrap [class*="leftContent--"] [class*="sortBarWrap--"] [class*="sortBarWrapTop--"] [class*="otherSelector--"] [class*="innerWrap--"]:first-child {
+  opacity: 0;
+  pointer-events: none;
+}
 #ice-container [class*="pageContent--"] #pageContent .search-content-leftWrap [class*="leftContent--"] [class*="sortBarWrap--"] [class*="sortBarWrapTop--"] [class*="sortBarWrapInner--"] .iconfont-tbpc-search {
   color: #ff5000;
+  display: none;
   left: 278px;
 }
 #ice-container [class*="pageContent--"] #pageContent .search-content-leftWrap [class*="leftContent--"] [class*="sortBarWrap--"] [class*="sortBarWrapTop--"] [class*="sortBarWrapInner--"] .next-tabs-wrapped > .next-tabs-bar .next-tabs-tab {
@@ -210,6 +219,9 @@
   background-color: #3c3c3c !important;
   padding: 2px 4px !important;
   border-color: #3c3c3c !important;
+}
+#ice-container [class*="pageContent--"] #pageContent .search-content-leftWrap [class*="leftContent--"] [class*="sortBarWrap--"] [class*="sortBarWrapTop--"] [class*="sortBarWrapInner--"] .next-tabs-wrapped > .next-tabs-bar .next-tabs-tab:last-child {
+  display: none;
 }
 #ice-container [class*="pageContent--"] #pageContent .search-content-leftWrap [class*="leftContent--"] [class*="sortBarWrap--"] [class*="sortBarWrapTop--"] [class*="sortBarWrapInner--"] .next-tabs-wrapped > .next-tabs-bar .next-tabs-tab .next-tabs-tab-inner {
   color: #c9c9c9;

@@ -127,6 +127,17 @@
         border-color: #ff5000 !important;
         color: #c9c9c9;
       }
+
+      [class*="btn-search"] {
+        &:last-child {
+          background: linear-gradient(
+            90deg,
+            rgb(255, 203, 0),
+            rgb(255, 148, 2)
+          );
+          color: #fafafa;
+        }
+      }
       .search-suggest-popup {
         border-color: #ff5000 !important;
         .search-suggest-menu {
@@ -184,9 +195,12 @@
       }
     }
     [class*="content--"] {
+      [class*="delivery-content--"] {
+        color: #c9c9c9;
+      }
       [class*="BasicContent--"] {
         .f-els-1 {
-            color: #c9c9c9;
+          color: #c9c9c9;
         }
         background-color: #3c3c3c;
         [class*="miniPanel--"] {
@@ -237,10 +251,10 @@
               color: red;
 
               [class*="quantityBtn--"] {
-                border-color: #ff5000;
+                border-color: rgba(#ff5000, 0.5);
               }
               [class*="countValueWrapper--"] {
-                border-color: #ff5000;
+                border-color: rgba(#ff5000, 0.5);
               }
               [class*="btnText--"] {
                 color: #c9c9c9;
@@ -256,7 +270,7 @@
               color: #b1b1b1;
             }
             [class*="NormalFixedInfo--"] {
-                display: none !important;
+              display: none !important;
             }
             [class*="uniqueServiceItem--"] {
               background-color: #3c3c3c;

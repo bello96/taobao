@@ -121,6 +121,10 @@
 #ice-container .search-wrap .search-suggest .search-suggest-menu .search-suggest-menu-item:hover .text-commen {
   color: #c9c9c9;
 }
+#ice-container .search-wrap .search-suggest .search-suggest-menu .search-suggest-menu-item.active,
+#ice-container .search-wrap .search-suggest .search-suggest-menu .search-suggest .search-suggest-menu-item:hover {
+  background-color: #3c3c3c;
+}
 #ice-container .search-wrap .search-suggest .search-suggest-menu .item-text {
   color: #ff4f01;
 }
