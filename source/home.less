@@ -2,40 +2,51 @@
 .site-nav {
   background-color: #21252b;
   border-bottom: none;
+  .site-nav-switch .site-nav-region {
+    color: #c9c9c9;
+  }
+  .site-nav-switch.site-nav-menu-hover {
+    .site-nav-menu-hd {
+      background-color: #21252b;
+      border: none;
+    }
+  }
+  .site-nav-login.site-nav-menu-hover {
+    .site-nav-menu-hd {
+      background-color: #21252b;
+      border: none;
+    }
+  }
 
   .site-nav-bd {
     background-color: #21252b;
 
     .site-nav-bd-l {
-      float: right;
 
       .site-nav-menu {
-        display: none;
-      }
 
-      .site-nav-menu:nth-child(2) {
-        display: block;
-
-        .site-nav-menu-hd {
-          background-color: #21252b;
-        }
 
         .site-nav-menu-hd a {
           color: #c9c9c9;
+          &:hover {
+            color: #ff5000;
+          }
         }
       }
 
-      .site-nav-menu-hover .site-nav-menu-hd {
-        background-color: #3c3c3c !important;
-        border: none;
-      }
 
       .site-nav-menu-bd-panel {
         background-color: #3c3c3c;
         border-color: #21252b;
+        color: #c9c9c9;
+        .site-nav-region-item {
+          &:hover {
+            background-color: #21252b;
+          }
+        }
+
 
         a {
-          color: #c9c9c9;
 
           &:hover {
             color: #ff4400;
@@ -46,22 +57,13 @@
           color: #c9c9c9;
         }
 
-        .site-nav-user-privilege {
-          display: none;
-        }
-
         .site-nav-menu-hd a {
-          color: #c9c9c9;
+          color: #c9c9c9 !important;
         }
       }
     }
 
     .site-nav-bd-r {
-      float: right;
-
-      .site-nav-menu {
-        display: none;
-      }
 
       .site-nav-menu-hover {
         .site-nav-menu-hd {
@@ -71,11 +73,9 @@
         }
       }
 
-      .site-nav-menu:nth-child(2) {
-        display: block;
+      .site-nav-menu {
 
         .site-nav-menu-list {
-          // display: block;
           .site-nav-menu-bd-panel {
             background-color: #3c3c3c;
             border-color: #21252b;
@@ -90,14 +90,6 @@
             }
           }
         }
-      }
-
-      .site-nav-menu:nth-child(3) {
-        display: block;
-      }
-
-      .site-nav-pipe {
-        display: none;
       }
 
       .site-nav-menu-hd {
@@ -458,6 +450,13 @@
               color: #f1f1f1;
             }
           }
+        }
+      }
+      .user-order-main {
+        background-color: #3c3c3c;
+        h2,
+        p {
+          color: #d1d1d1;
         }
       }
 
