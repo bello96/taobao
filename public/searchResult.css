@@ -97,8 +97,9 @@
 #ice-container [class*="headerWrap--"] .search-suggest .search-suggest-menu .text-commen {
   color: #9b9b9b;
 }
-#ice-container [class*="headerWrap--"] .search-suggest .image-search-wrapper {
-  display: none;
+#ice-container [class*="headerWrap--"] .search-suggest .image-search-wrapper .image-search-icon {
+  background-color: #3c3c3c;
+  border-radius: 5px;
 }
 #ice-container [class*="headerWrap--"] .search-suggest .search-suggest-combobox input {
   background-color: #282828;
